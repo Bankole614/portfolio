@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
       <ParticleBackground />
 
       {/* Overlay to darken/tint */}
-      <div className="absolute inset-0 bg-black bg-opacity-60 z-10" />
+      <div className="absolute inset-0 bg-black bg-opacity-40 z-10" />
 
       <Header />
 
@@ -50,11 +50,11 @@ const Hero: React.FC = () => {
           <span className="bg-gradient-to-r from-gradient-start to-gradient-end bg-clip-text text-transparent bg-[length:200%_200%] animate-pulse font-bold leading-tight">
             Frontend Developer
           </span>{' '} turning clean code into delightful <span className="bg-gradient-to-r from-gradient-start to-gradient-end bg-clip-text text-transparent bg-[length:200%_200%] animate-pulse font-bold leading-tight">
-            user experiences
-          </span>.
+            user experiences.
+          </span>
         </p>
         <p className="text-md md:text-lg text-gray-300 leading-relaxed mb-8">
-          I specialize in building responsive, accessible, and visually polished web and mobile apps using <span className="text-blue-500 font-semibold">React</span>, <span className="text-green-600 font-semibold">Vue</span>, <span className="text-cyan-400 font-semibold">Flutter</span>, and <span className="text-yellow-500 font-semibold">Supabase</span>. From wireframes to pixel-perfect UIs, I bridge the gap between design and functional beauty.
+          I specialize in building responsive, accessible, and visually polished web and mobile apps using <span className="text-blue-500 font-semibold">React</span>, <span className="text-green-600 font-semibold">Vue</span>, <span className="text-cyan-400 font-semibold">Flutter</span>, <span className="text-yellow-500 font-semibold">Supabase</span>, and <span className="text-blue-500 font-semibold">Hi-send</span>. From wireframes to pixel-perfect UIs, I bridge the gap between design and functional beauty.
         </p>
 
       <div className="flex justify-center space-x-4 mb-6">

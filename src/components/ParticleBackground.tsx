@@ -17,8 +17,10 @@ const ParticleBackground: React.FC = () => {
   const particlesRef = useRef<Particle[]>([]);
 
   // Configuration
-  const PARTICLE_COUNT = 500;
-  const SPEED = 0.2;
+  const isMobile = window.innerWidth < 480;
+  const isTablet = window.innerWidth < 768 && window.innerWidth >= 480;
+  const PARTICLE_COUNT = isMobile ? 50 : isTablet ? 100 : 200;
+  const SPEED = 0.3;
   const RADIUS_MIN = 2;
   const RADIUS_MAX = 2;
   const ALPHA_MIN = 0.1;

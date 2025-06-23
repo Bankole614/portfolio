@@ -23,10 +23,10 @@ export default {
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
 				'dark-bg': '#0a0c14',
-        'btn-primary': '#4f7fff',
-        'btn-primary-hover': '#6b9eff',
-        'gradient-start': '#89d1ff',
-        'gradient-end': '#6b9eff',
+				'btn-primary': '#4f7fff',
+				'btn-primary-hover': '#6b9eff',
+				'gradient-start': '#89d1ff',
+				'gradient-end': '#6b9eff',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
@@ -78,6 +78,21 @@ export default {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			keyframes: {
+        'float1': {
+          '0%':   { transform: 'translate(0px, 0px)' },
+          '50%':  { transform: 'translate(20px, -20px)' },
+          '100%': { transform: 'translate(0px, 0px)' },
+        },
+        'float2': {
+          '0%':   { transform: 'translate(0px, 0px)' },
+          '50%':  { transform: 'translate(-30px, 25px)' },
+          '100%': { transform: 'translate(0px, 0px)' },
+        },
+        'float3': {
+          '0%':   { transform: 'translate(0px, 0px)' },
+          '50%':  { transform: 'translate(25px, 25px)' },
+          '100%': { transform: 'translate(0px, 0px)' },
+        },
 				'accordion-down': {
 					from: {
 						height: '0'
@@ -141,10 +156,10 @@ export default {
 					}
 				},
 				'gradient-shift': {
-          '0%': { 'background-position': '0% 50%' },
-          '50%': { 'background-position': '100% 50%' },
-          '100%': { 'background-position': '0% 50%' },
-        },
+				'0%': { 'background-position': '0% 50%' },
+				'50%': { 'background-position': '100% 50%' },
+				'100%': { 'background-position': '0% 50%' },
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
@@ -155,7 +170,10 @@ export default {
 				'slide-left': 'slide-left 30s linear infinite',
 				'float': 'float 3s ease-in-out infinite',
 				'gradient-shift': 'gradient-shift 5s ease infinite',
-			},
+				'float1': 'float1 8s ease-in-out infinite',
+				'float2': 'float2 10s ease-in-out infinite',
+				'float3': 'float3 12s ease-in-out infinite',
+					},
 			backgroundSize: {
         '200%': '200% 200%',
       },
