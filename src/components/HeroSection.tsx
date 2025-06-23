@@ -10,7 +10,6 @@ const Hero: React.FC = () => {
       <ParticleBackground />
 
       <div className="absolute inset-0 bg-black bg-opacity-40 z-10" />
-
       <Header />
 
       {/* Main content */}
