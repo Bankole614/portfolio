@@ -7,10 +7,8 @@ import { Github, Linkedin, Mail } from 'lucide-react';
 const Hero: React.FC = () => {
   return (
     <section className="relative w-full h-screen overflow-hidden bg-dark-bg font-sans text-white">
-      {/* Particle canvas */}
       <ParticleBackground />
 
-      {/* Overlay to darken/tint */}
       <div className="absolute inset-0 bg-black bg-opacity-40 z-10" />
 
       <Header />
