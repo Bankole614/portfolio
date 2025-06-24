@@ -36,7 +36,6 @@ const Header = () => {
   const navItems = [
     { name: 'Home', id: 'home' },
     { name: 'About', id: 'about' },
-    { name: 'Skills', id: 'skills' },
     { name: 'Projects', id: 'projects' },
     { name: 'Contact', id: 'contact' },
   ];
@@ -44,7 +43,7 @@ const Header = () => {
   return (
     <>
       <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-gray-600/20 backdrop-blur-[2px] border-b border-neutral-600' : 'bg-gray-600/10 backdrop-blur-[2px]'
+        isScrolled ? 'bg-gray-600/20 backdrop-blur-[4px] border-b border-neutral-600' : 'bg-gray-600/10 backdrop-blur-[2px]'
       }`}>
         <nav className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">

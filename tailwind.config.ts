@@ -78,6 +78,10 @@ export default {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			keyframes: {
+				'gradientBorder': {
+          '0%, 100%': { 'background-position': '0% 50%' },
+          '50%':       { 'background-position': '100% 50%' },
+        },
         'float1': {
           '0%':   { transform: 'translate(0px, 0px)' },
           '50%':  { transform: 'translate(20px, -20px)' },
@@ -173,6 +177,7 @@ export default {
 				'float1': 'float1 8s ease-in-out infinite',
 				'float2': 'float2 10s ease-in-out infinite',
 				'float3': 'float3 12s ease-in-out infinite',
+				'gradient-border': 'gradientBorder 3s ease infinite',
 					},
 			backgroundSize: {
         '200%': '200% 200%',
