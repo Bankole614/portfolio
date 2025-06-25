@@ -13,31 +13,8 @@ const Hero: React.FC = () => {
       <Header />
 
       {/* Main content */}
-      <div className="relative z-20 flex flex-col items-center justify-center h-full px-4 text-center">
-        {/* <h1 className="max-w-3xl text-2xl font-bold leading-tight sm:text-3xl lg:text-4xl">
-          bleed is Discord's premier{' '}
-          <span className="bg-gradient-to-r from-gradient-start to-gradient-end bg-clip-text text-transparent bg-[length:200%_200%] animate-pulse">
-            all-in-one
-          </span>{' '}
-          app
-        </h1>
-        <p className="mt-4 max-w-lg text-base leading-relaxed text-white/85 sm:text-lg">
-          Meet the leading bot for management and engagement. Built to elevate your community’s experience, streamline server management, and provide you access to premium resources for every necessity.
-        </p>
-        <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <a
-            href="#invite"
-            className="inline-block rounded-full border border-white/30 bg-white/10 px-6 py-3 text-sm font-medium text-white transition hover:bg-white/20 hover:-translate-y-0.5"
-          >
-            Invite to Discord
-          </a>
-          <a
-            href="#purchase"
-            className="inline-block rounded-full bg-btn-primary px-6 py-3 text-sm font-medium text-white transition hover:bg-btn-primary-hover hover:-translate-y-0.5"
-          >
-            Purchase
-          </a>
-        </div> */}
+      <div className="relative py-14 z-20 flex flex-col items-center justify-center h-full px-4 text-center">
+        
 
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-200 mb-4">

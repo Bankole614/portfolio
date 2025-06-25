@@ -17,7 +17,7 @@ export default function About() {
   return (
     <section id="about" className="min-h-screen px-6 py-20 bg-gray-900/10 text-white">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-4">About Me</h2>
+        <h2 className="md:text-4xl text-2xl font-bold mb-4">About Me</h2>
 
         <p className="text-lg text-gray-400 mb-8">
             I’m Ayobami Bankole, a frontend developer who values clean interfaces, meaningful interactions, and thoughtful user experiences. I focus on turning creative ideas into functional, accessible, and visually compelling digital products. I pay strong attention to detail, visual harmony, and intuitive user flow in every build.
