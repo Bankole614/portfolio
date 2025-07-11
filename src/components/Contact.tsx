@@ -3,38 +3,22 @@ import { Mail, Github, Linkedin } from 'lucide-react';
 
 export default function Contact() {
   return (
-    <section className="min-h-screen px-6 py-14 bg-dark-bg text-gray-200 ">
+    <section id="contact" className="min-h-screen px-6 py-14 bg-dark-bg text-gray-200 ">
       <div className="max-w-2xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-4">Get In Touch</h2>
+        <h2 className="md:text-4xl text-2xl font-bold mb-4">Get In Touch</h2>
         <p className="text-gray-400 mb-8">
           Have a project in mind, a question, or just want to say hello? I’d love to hear from you.
         </p>
         {/* Contact Info + Socials */}
-        <div className="flex justify-center space-x-6 mb-10 text-gray-600 dark:text-gray-300">
-          <a
-            href="mailto:you@example.com"
-            aria-label="Email"
-            className="hover:text-blue-600 transition"
-          >
-            <Mail className="w-6 h-6" />
+        <div className="flex justify-center space-x-4 mt-6 text-gray-300">
+          <a href="https://github.com/Bankole614" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <Github className="w-6 h-6 hover:text-gradient-start transition-all duration-300" />
           </a>
-          <a
-            href="https://github.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="GitHub"
-            className="hover:text-black dark:hover:text-white transition"
-          >
-            <Github className="w-6 h-6" />
+          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <Linkedin className="w-6 h-6 hover:text-gradient-start transition-all duration-300" />
           </a>
-          <a
-            href="https://linkedin.com/in/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="LinkedIn"
-            className="hover:text-blue-500 transition"
-          >
-            <Linkedin className="w-6 h-6" />
+          <a href="mailto:bankoleayobami01@gmail.com" aria-label="Email">
+            <Mail className="w-6 h-6 hover:text-gradient-start transition-all duration-300" />
           </a>
         </div>
 

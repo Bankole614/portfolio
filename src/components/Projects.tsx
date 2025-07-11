@@ -1,14 +1,18 @@
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import hisend from '@/asset/hisend_web.png';
+import { Link } from 'react-router-dom';
+import { ArrowUpRight } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
     {
-      title: "Dev.Jamil Portfolio",
-      description: "A personal portfolio showcasing my skills, projects, and achievements. Features responsive design and dynamic content updates.",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Responsive Design"],
-      category: "Portfolio",
+      title: "Hi-send",
+      description: "A Backend as a Service (BaaS) tool that provides a real-time database, authentication, storage, and APIs for building web and mobile applications and help developers master API integration and build end-to-end solutions.",
+      image: hisend,
+      technologies: ["Vue", "TypeScript", "Axios", "Pinia"],
+      category: "Hi-send",
+      path: "https://hisend.hunnovate.com/",
       color: "from-blue-500 to-cyan-500"
     },
     {
@@ -41,7 +45,7 @@ const Projects = () => {
     <section id="projects" className="py-20">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+          <h2 className="md:text-4xl text-2xl font-bold mb-4 text-white">
             Featured Projects
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -49,80 +53,59 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 h-full">
           {projects.map((project, index) => (
-            <Card 
-              key={project.title}
-              className="group overflow-hidden bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-500 animate-fade-in-up"
-              style={{ animationDelay: `${index * 0.1}s` }}
-            >
-              <div className="relative overflow-hidden">
-                <img 
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
-                />
-                <div className={`absolute inset-0 bg-gradient-to-t ${project.color} opacity-20 group-hover:opacity-30 transition-opacity duration-300`}></div>
-                <div className="absolute top-4 right-4">
-                  <span className={`px-3 py-1 text-xs font-medium bg-gradient-to-r ${project.color} text-white rounded-full`}>
-                    {project.category}
-                  </span>
-                </div>
-              </div>
-              
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">
-                  {project.title}
-                </h3>
-                <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
-                  {project.description}
-                </p>
-                
-                <div className="flex flex-wrap gap-2 mb-6">
-                  {project.technologies.map((tech) => (
-                    <span 
-                      key={tech}
-                      className="px-2 py-1 text-xs bg-muted rounded text-muted-foreground"
-                    >
-                      {tech}
+            <Link to={project.path} target="_blank" rel="noopener noreferrer" key={project.title}>
+              <Card 
+                key={project.title}
+                className="group overflow-hidden bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-500 animate-fade-in-up h-full"
+                style={{ animationDelay: `${index * 0.1}s` }}
+              >
+                <div className="relative overflow-hidden">
+                  <img 
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                  <div className={`absolute inset-0 bg-gradient-to-t from-blue-500 to-cyan-500 opacity-20 group-hover:opacity-30 transition-opacity duration-300`}></div>
+                  <div className="absolute top-4 right-4">
+                    <span className={`px-3 py-1 text-xs font-medium bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-full`}>
+                      {project.category}
                     </span>
-                  ))}
+                  </div>
                 </div>
                 
-                <div className="flex gap-3">
-                  <Button 
-                    size="sm" 
-                    className={`bg-gradient-to-r ${project.color} hover:opacity-90 text-white flex-1`}
-                  >
-                    View Project
-                  </Button>
-                  <Button 
-                    size="sm" 
-                    variant="outline" 
-                    className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                  >
-                    GitHub
-                  </Button>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">
+                    {project.title}
+                  </h3>
+                  <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
+                    {project.description}
+                  </p>
+                  
+                  <div className="flex flex-wrap gap-2 mb-6">
+                    {project.technologies.map((tech) => (
+                      <span 
+                        key={tech}
+                        className="px-2 py-1 text-xs bg-muted rounded text-muted-foreground"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                  
+                  <div className="flex justify-center">
+                    <button 
+                      className={`bg-gradient-to-r from-blue-500 to-cyan-500 w-full hover:opacity-90 text-white px-4 py-3 rounded-md  transition-all duration-300`}
+                    >
+                      View Project
+                    </button>
+                  </div>
                 </div>
-              </div>
-            </Card>
+              </Card>
+            </Link>
+            
           ))}
-        </div>
-
-        <div className="text-center mt-12">
-          <a
-            href="https://github.com/bnusmann22?tab=repositories"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8"
-            >
-              View All Projects
-            </Button>
-          </a>
         </div>
       </div>
     </section>

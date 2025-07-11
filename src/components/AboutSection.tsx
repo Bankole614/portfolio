@@ -13,14 +13,21 @@ export default function About() {
         { name: 'Hi-send', icon: 'src/asset/hisend.PNG' },
     ];
 
+    const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId.replace('#', ''));
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
 
   return (
-    <section id="about" className="min-h-screen px-6 py-20 bg-gray-900/10 text-white">
+    <section id="about" className="min-h-screen px-6 py-20 bg-black/10 text-white">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="md:text-4xl text-2xl font-bold mb-4">About Me</h2>
 
         <p className="text-lg text-gray-400 mb-8">
-            I’m Ayobami Bankole, a frontend developer who values clean interfaces, meaningful interactions, and thoughtful user experiences. I focus on turning creative ideas into functional, accessible, and visually compelling digital products. I pay strong attention to detail, visual harmony, and intuitive user flow in every build.
+            I’m a frontend developer who values clean interfaces, meaningful interactions, and thoughtful user experiences. I focus on turning creative ideas into functional, accessible, and visually compelling digital products. I pay strong attention to detail, visual harmony, and intuitive user flow in every build.
         </p>
 
 
@@ -36,9 +43,9 @@ export default function About() {
         {/* Tech Stack Section */}
         <div className="mt-10">
           <h3 className="text-2xl font-semibold mb-4">Tech Stack</h3>
-          <div className="grid grid-cols-8 gap-5 ">
+          <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-8 gap-5 ">
             {stack.map((item) => (
-              <div key={item.name} className="py-2 flex flex-col items-center space-y-2 border border-gray-700 rounded-lg bg-gray-900 hover:bg-gray-600 transition">
+              <div key={item.name} className="py-2 flex flex-col items-center space-y-2 border border-gray-700 rounded-lg bg-gray-900 hover:bg-gray-800 transition">
                 <img src={item.icon} className="w-10" alt={item.name} />
                 <p className='text-sm'>{item.name}</p>
               </div>
@@ -47,14 +54,15 @@ export default function About() {
         </div>
 
         {/* Call to Action */}
-        <div className="mt-12">
-          <a
-            href="/#projects"
-            className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition"
+        <div className="mt-12 flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-gradient-start to-gradient-end text-gray-900 font-medium rounded-md transition-all duration-300 hover:from-blue-800 hover:to-blue-400 hover:text-white w-fit mx-auto">
+          <button
+            type="button"
+            onClick={() => scrollToSection('projects')}
+            className=""
           >
             View My Work
-            <ArrowRight className="ml-2 w-5 h-5" />
-          </a>
+          </button>
+          <ArrowRight className="w-5 h-5" />
         </div>
       </div>
     </section>
