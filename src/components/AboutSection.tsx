@@ -22,7 +22,7 @@ export default function About() {
 
 
   return (
-    <section id="about" className="min-h-screen px-6 py-20 bg-black/10 text-white">
+    <section id="about" className="min-h-screen px-6 py-14 bg-black/10 text-white">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="md:text-4xl text-2xl font-bold mb-4">About Me</h2>
 
