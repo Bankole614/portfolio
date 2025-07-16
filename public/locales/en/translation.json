@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "logoAlt": "Company Logo",
+    "menuTitle": "Menu",
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Hi, I'm {{name}}",
+    "subtitle1": "Frontend Developer",
+    "subtitle2": "turning clean code into delightful",
+    "subtitle3": "user experiences",
+    "description": "I specialize in building responsive, accessible, and visually polished web and mobile apps using React, Vue, Flutter, Supabase, and Hi-send. From wireframes to pixel-perfect UIs, I bridge the gap between design and functional beauty.",
+    "seeWork": "See My Work",
+    "contactMe": "Contact Me"
+  }
+}

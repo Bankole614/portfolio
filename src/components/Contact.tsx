@@ -2,8 +2,26 @@
 import { Mail, Github, Linkedin } from 'lucide-react';
 import { useForm, ValidationError } from '@formspree/react';
 
+
+import { useRef, useEffect } from 'react';
+import { toast } from "../components/ui/use-toast";
+
 const Contact = () => {
   const [state, handleSubmit] = useForm("mldleeyw");
+  const formRef = useRef<HTMLFormElement>(null);
+  useEffect(() => {
+    if (state.succeeded) {
+      toast({
+        title: "Thank you for reaching out!",
+        description: "I’ll get back to you soon.",
+        variant: "default"
+      });
+      // Clear form fields
+      if (formRef.current) {
+        formRef.current.reset();
+      }
+    }
+  }, [state.succeeded]);
 
   return (
     <section id="contact" className=" px-6 py-14 bg-dark-bg ">
@@ -28,8 +46,9 @@ const Contact = () => {
         
 
         <form
+          ref={formRef}
           className="grid gap-6 text-black text-left"
-         onSubmit={handleSubmit}
+          onSubmit={handleSubmit}
         >
           <div>
             <label htmlFor="name" className="block text-gray-200 mb-2 text-sm font-medium">
@@ -119,11 +138,7 @@ const Contact = () => {
             )}
           </button>`
         </form>
-        {state.succeeded && (
-          <div className=" mb-2 text-green-400 text-lg font-semibold">
-            Thank you for reaching out! I’ll get back to you soon.
-          </div>
-        )}
+        {/* Toast feedback handled by shadcn toast */}
       </div>
     </section>
   );

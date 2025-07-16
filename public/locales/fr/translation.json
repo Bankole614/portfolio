@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "logoAlt": "Logo de l'entreprise",
+    "menuTitle": "Menu",
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Bonjour, je suis {{name}}",
+    "subtitle1": "Développeur Frontend",
+    "subtitle2": "transformant du code propre en",
+    "subtitle3": "expériences utilisateur exceptionnelles",
+    "description": "Je me spécialise dans la création d'applications web et mobiles réactives, accessibles et visuellement soignées en utilisant React, Vue, Flutter, Supabase et Hi-send. Des maquettes aux interfaces pixel-perfect, je fais le lien entre design et beauté fonctionnelle.",
+    "seeWork": "Voir mes projets",
+    "contactMe": "Contactez-moi"
+  }
+}
