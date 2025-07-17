@@ -15,5 +15,30 @@
     "description": "Me especializo en construir aplicaciones web y móviles responsivas, accesibles y visualmente pulidas usando React, Vue, Flutter, Supabase y Hi-send. Desde wireframes hasta interfaces pixel-perfect, cierro la brecha entre diseño y belleza funcional.",
     "seeWork": "Ver mis proyectos",
     "contactMe": "Contáctame"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description1": "Soy un desarrollador frontend que valora interfaces limpias, interacciones significativas y experiencias de usuario bien pensadas. Me enfoco en convertir ideas creativas en productos digitales funcionales, accesibles y visualmente atractivos. Presto mucha atención al detalle, la armonía visual y el flujo intuitivo del usuario en cada proyecto.",
+    "description2": "Provengo de un trasfondo en comunicaciones, lo que significa que pienso profundamente en cómo los usuarios interactúan, perciben y experimentan los productos digitales. Esto me ayuda a escribir interfaces más limpias, microtextos significativos y a construir con empatía.",
+    "communications": "Comunicaciones",
+    "description3": "Ya sea diseñando interfaces limpias, integrando APIs o construyendo plataformas full-stack con herramientas como Supabase o Hi-send, disfruto transformando ideas en productos reales centrados en el usuario. Me interesan especialmente el rendimiento frontend, la accesibilidad y las transiciones hermosas.",
+    "funFact": "Aquí un dato curioso; puedo detectar botones desalineados desde 3 metros de distancia🤪.",
+    "techStack": "Tecnologías",
+    "viewWork": "Ver mi trabajo"
+  },
+  "contact": {
+    "title": "Contáctame",
+    "subtitle": "¿Tienes un proyecto en mente, una pregunta o simplemente quieres saludar? Me encantaría saber de ti.",
+    "success": {
+      "title": "¡Gracias por contactarme!",
+      "description": "Me pondré en contacto contigo pronto."
+    },
+    "form": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "message": "Mensaje",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando..."
+    }
   }
 }

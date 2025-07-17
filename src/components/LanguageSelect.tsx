@@ -26,14 +26,14 @@ export function LanguageSelect() {
 
   return (
     <Select value={i18n.language} onValueChange={handleLanguageChange}>
-      <SelectTrigger className="w-[150px]">
+      <SelectTrigger className="w-[130px]">
         <SelectValue placeholder="Language">
           {languages.find(lang => lang.value === i18n.language) && (
             <div className="flex items-center gap-2">
               <ReactCountryFlag 
                 countryCode={languages.find(lang => lang.value === i18n.language)?.countryCode || 'US'}
                 svg
-                style={{ width: '20px', height: '20px' }}
+                // style={{ width: '20px', height: '20px' }}
               />
               <span>{languages.find(lang => lang.value === i18n.language)?.label}</span>
             </div>
@@ -47,7 +47,7 @@ export function LanguageSelect() {
               <ReactCountryFlag 
                 countryCode={lang.countryCode}
                 svg
-                style={{ width: '20px', height: '20px' }}
+                // style={{ width: '20px', height: '20px' }}
               />
               {lang.label}
             </div>

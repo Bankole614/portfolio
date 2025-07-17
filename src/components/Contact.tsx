@@ -1,41 +1,43 @@
-// Contact.jsx
 import { Mail, Github, Linkedin } from 'lucide-react';
 import { useForm, ValidationError } from '@formspree/react';
-
-
 import { useRef, useEffect } from 'react';
 import { toast } from "../components/ui/use-toast";
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
+  const { t } = useTranslation();
   const [state, handleSubmit] = useForm("mldleeyw");
   const formRef = useRef<HTMLFormElement>(null);
+
   useEffect(() => {
     if (state.succeeded) {
       toast({
-        title: "Thank you for reaching out!",
-        description: "I’ll get back to you soon.",
+        title: t('contact.success.title'),
+        description: t('contact.success.description'),
         variant: "default"
       });
-      // Clear form fields
       if (formRef.current) {
         formRef.current.reset();
       }
     }
-  }, [state.succeeded]);
+  }, [state.succeeded, t]);
 
   return (
-    <section id="contact" className=" px-6 py-14 bg-dark-bg ">
+    <section id="contact" className="px-6 py-14 bg-dark-bg">
       <div className="max-w-2xl mx-auto text-center">
-        <h2 className="md:text-4xl text-2xl text-gray-200  font-bold mb-4">Get In Touch</h2>
+        <h2 className="md:text-4xl text-2xl text-gray-200 font-bold mb-4">
+          {t('contact.title')}
+        </h2>
         <p className="text-gray-400 mb-8">
-          Have a project in mind, a question, or just want to say hello? I’d love to hear from you.
+          {t('contact.subtitle')}
         </p>
-        {/* Contact Info + Socials */}
+
+        {/* Social Links */}
         <div className="flex justify-center space-x-4 mt-6 text-gray-300">
           <a href="https://github.com/Bankole614" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
             <Github className="w-6 h-6 hover:text-gradient-start transition-all duration-300" />
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://linkedin.com/in/emmanuel-bankole-a82362224" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <Linkedin className="w-6 h-6 hover:text-gradient-start transition-all duration-300" />
           </a>
           <a href="mailto:bankoleayobami01@gmail.com" aria-label="Email">
@@ -43,8 +45,7 @@ const Contact = () => {
           </a>
         </div>
 
-        
-
+        {/* Contact Form */}
         <form
           ref={formRef}
           className="grid gap-6 text-black text-left"
@@ -52,7 +53,7 @@ const Contact = () => {
         >
           <div>
             <label htmlFor="name" className="block text-gray-200 mb-2 text-sm font-medium">
-              Name
+              {t('contact.form.name')}
             </label>
             <input
               type="text"
@@ -62,7 +63,7 @@ const Contact = () => {
               className="w-full px-4 py-2 border rounded-md dark:bg-gray-800 dark:border-gray-700"
             />
             <ValidationError 
-              prefix="Name" 
+              prefix={t('contact.form.name')} 
               field="name"
               errors={state.errors}
             />
@@ -70,7 +71,7 @@ const Contact = () => {
 
           <div>
             <label htmlFor="email" className="block text-gray-200 mb-2 text-sm font-medium">
-              Email
+              {t('contact.form.email')}
             </label>
             <input
               id="email"
@@ -80,7 +81,7 @@ const Contact = () => {
               className="w-full px-4 py-2 border rounded-md dark:bg-gray-800 dark:border-gray-700"
             />
             <ValidationError 
-              prefix="Email" 
+              prefix={t('contact.form.email')} 
               field="email"
               errors={state.errors}
             />
@@ -88,7 +89,7 @@ const Contact = () => {
 
           <div>
             <label htmlFor="message" className="block text-gray-200 mb-2 text-sm font-medium">
-              Message
+              {t('contact.form.message')}
             </label>
             <textarea
               id="message"
@@ -98,7 +99,7 @@ const Contact = () => {
               className="w-full px-4 py-2 border rounded-md dark:bg-gray-800 dark:border-gray-700"
             />
             <ValidationError 
-              prefix="Message" 
+              prefix={t('contact.form.message')} 
               field="message"
               errors={state.errors}
             />
@@ -131,14 +132,13 @@ const Contact = () => {
                     d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
                   ></path>
                 </svg>
-                Sending...
+                {t('contact.form.sending')}
               </>
             ) : (
-              "Send Message"
+              t('contact.form.submit')
             )}
-          </button>`
+          </button>
         </form>
-        {/* Toast feedback handled by shadcn toast */}
       </div>
     </section>
   );

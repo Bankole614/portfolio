@@ -15,5 +15,30 @@
     "description": "Je me spécialise dans la création d'applications web et mobiles réactives, accessibles et visuellement soignées en utilisant React, Vue, Flutter, Supabase et Hi-send. Des maquettes aux interfaces pixel-perfect, je fais le lien entre design et beauté fonctionnelle.",
     "seeWork": "Voir mes projets",
     "contactMe": "Contactez-moi"
+  },
+  "about": {
+    "title": "À propos",
+    "description1": "Je suis un développeur frontend qui valorise des interfaces propres, des interactions significatives et des expériences utilisateur réfléchies. Je me concentre sur la transformation d'idées créatives en produits numériques fonctionnels, accessibles et visuellement attrayants. Je porte une attention particulière aux détails, à l'harmonie visuelle et au flux utilisateur intuitif dans chaque réalisation.",
+    "description2": "Je viens d'un parcours en Communication, ce qui signifie que je réfléchis profondément à la façon dont les utilisateurs interagissent, perçoivent et expérimentent les produits numériques. Cela m'aide à créer des interfaces plus claires, des microcopies significatives et à développer avec empathie.",
+    "communications": "Communication",
+    "description3": "Que ce soit concevoir des interfaces utilisateur propres, intégrer des API ou construire des plateformes full-stack avec des outils comme Supabase ou Hi-send, j'aime transformer des idées en produits réels centrés sur l'utilisateur. Je m'intéresse particulièrement aux performances frontend, à l'accessibilité et aux belles transitions.",
+    "funFact": "Petit fait amusant ; je peux repérer des boutons mal alignés à 3 mètres de distance🤪.",
+    "techStack": "Stack Technique",
+    "viewWork": "Voir mes projets"
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "subtitle": "Vous avez un projet en tête, une question ou simplement envie de dire bonjour ? J'aimerais avoir de vos nouvelles.",
+    "success": {
+      "title": "Merci pour votre message !",
+      "description": "Je vous répondrai dès que possible."
+    },
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Envoyer le message",
+      "sending": "Envoi en cours..."
+    }
   }
 }

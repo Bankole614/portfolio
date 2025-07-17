@@ -16,7 +16,7 @@ const HeroSection: React.FC = () => {
   };
 
   return (
-    <section className="relative w-full h-screen overflow-hidden bg-dark-bg font-sans text-white">
+    <section className="relative w-full sm:pt-24 lg:min-h-screen pt-16 pb-14 min-h-full overflow-hidden bg-dark-bg font-sans text-white">
       <ParticleBackground />
       <div className="absolute inset-0 bg-black bg-opacity-40 z-10" />
       <Header />
@@ -63,7 +63,7 @@ const HeroSection: React.FC = () => {
             <a href="https://github.com/Bankole614" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <Github className="w-6 h-6 hover:text-gradient-start transition-all duration-300" />
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <a href="https://linkedin.com/in/emmanuel-bankole-a82362224" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <Linkedin className="w-6 h-6 hover:text-gradient-start transition-all duration-300" />
             </a>
             <a href="mailto:bankoleayobami01@gmail.com" aria-label="Email">
