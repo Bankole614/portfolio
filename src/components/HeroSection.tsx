@@ -16,7 +16,7 @@ const HeroSection: React.FC = () => {
   };
 
   return (
-    <section id="home" className="relative w-full flex flex-col justify-center min-h-screen  overflow-hidden bg-dark-bg font-sans text-white">
+    <section id="home" className="relative w-full flex flex-col justify-center pt-10 min-h-screen  overflow-hidden bg-dark-bg font-sans text-white">
       <ParticleBackground />
       <div className="absolute inset-0 bg-black bg-opacity-40 z-10" />
       <Header />
