@@ -45,7 +45,7 @@ const Header = () => {
   return (
     <>
       <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-gray-600/20 backdrop-blur-[4px] border-b border-neutral-600' : 'bg-gray-600/10 backdrop-blur-[2px]'
+        isScrolled ? 'bg-neutral-400/20 backdrop-blur-[4px] border-b border-neutral-600' : 'bg-neutral-300/10 backdrop-blur-[3px]'
       }`}>
         <nav className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
@@ -59,7 +59,7 @@ const Header = () => {
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className="text-muted-foreground hover:text-gradient-start transition-colors duration-200 relative group"
+                  className="text-neutral-200 hover:text-gradient-start transition-colors duration-200 relative group"
                 >
                   {item.name}
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-start transition-all duration-300 group-hover:w-full"></span>

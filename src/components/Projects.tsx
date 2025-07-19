@@ -1,9 +1,8 @@
 import { Card } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
 import hisend from '@/asset/hisend_web.png';
 import eportal from '@/asset/eportal.png';
+import hunnovate from '@/asset/hunnovate.png';
 import { Link } from 'react-router-dom';
-import { ArrowUpRight } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
@@ -13,8 +12,7 @@ const Projects = () => {
       image: hisend,
       technologies: ["Vue", "TypeScript", "Axios", "Pinia"],
       category: "Hi-send",
-      path: "https://hisend.hunnovate.com/",
-      color: "from-blue-500 to-cyan-500"
+      path: "https://hisend.hunnovate.com",
     },
     {
       title: "Eportal Net",
@@ -22,16 +20,15 @@ const Projects = () => {
       image: eportal,
       technologies: ["Vue", "Typescript", "Axios", "Pinia"],
       category: "Eportal Net",
-      path: "https://portal.eportalnet.com/",
-      color: "from-green-500 to-emerald-500"
+      path: "https://portal.eportalnet.com",
     },
     {
-      title: "Waste Management Web App",
-      description: "A web application designed to improve waste management practices in Lagos Mainland, Nigeria, providing easy access to information and encouraging recycling.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop",
-      technologies: ["JavaScript", "HTML5", "CSS3", "API Integration"],
-      category: "Environmental",
-      color: "from-emerald-500 to-teal-500"
+      title: "Hunnovate Official Website",
+      description: "The official website of Hunnovate Tech Hub, a hub for tech enthusiasts to connect, learn, and grow in the tech industry and beyond.",
+      image: hunnovate,
+      technologies: ["Vue", "Typescript", "Axios", "Pinia"],
+      category: "Hunnovate Website",
+      path: "https://hunnovate.com",
     },
     {
       title: "SEO-Web",
@@ -55,7 +52,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 h-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 h-full">
           {projects.map((project, index) => (
             <Link to={project.path} target="_blank" rel="noopener noreferrer" key={project.title}>
               <Card 
@@ -88,28 +85,28 @@ const Projects = () => {
                 </div>
                 
                 
-                <div className="p-6">
+                <div className="px-6 pb-6">
                   
 
                   <div>
                     <div className="flex flex-wrap gap-2 mb-6">
-                    {project.technologies.map((tech) => (
-                      <span 
-                        key={tech}
-                        className="px-2 py-1 text-xs bg-muted rounded text-muted-foreground"
+                      {project.technologies.map((tech) => (
+                        <span 
+                          key={tech}
+                          className="px-2 py-1 text-xs bg-muted rounded text-muted-foreground"
+                        >
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                    
+                    <div className="flex justify-center">
+                      <button 
+                        className={`bg-gradient-to-r from-blue-500 to-cyan-500 w-full hover:opacity-90 text-white px-4 py-3 rounded-md  transition-all duration-300`}
                       >
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
-                  
-                  <div className="flex justify-center">
-                    <button 
-                      className={`bg-gradient-to-r from-blue-500 to-cyan-500 w-full hover:opacity-90 text-white px-4 py-3 rounded-md  transition-all duration-300`}
-                    >
-                      View Project
-                    </button>
-                  </div>
+                        View Project
+                      </button>
+                    </div>
                   </div>
                   
                   
