@@ -20,8 +20,6 @@ const HeroSection: React.FC = () => {
       <ParticleBackground />
       <div className="absolute inset-0 bg-black bg-opacity-40 z-10" />
       <Header />
-
-      {/* Main content */}
       <div className="relative py-14 z-20 flex flex-col items-center justify-center h-full px-4 text-center">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-200 mb-4">
