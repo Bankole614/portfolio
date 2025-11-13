@@ -16,12 +16,10 @@ const HeroSection: React.FC = () => {
   };
 
   return (
-    <section className="relative w-full sm:pt-24 lg:min-h-screen pt-16 pb-14 min-h-full overflow-hidden bg-dark-bg font-sans text-white">
+    <section id="home" className="relative w-full flex flex-col justify-center pt-10 min-h-screen  overflow-hidden bg-dark-bg font-sans text-white">
       <ParticleBackground />
       <div className="absolute inset-0 bg-black bg-opacity-40 z-10" />
       <Header />
-
-      {/* Main content */}
       <div className="relative py-14 z-20 flex flex-col items-center justify-center h-full px-4 text-center">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-200 mb-4">

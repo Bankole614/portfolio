@@ -16,7 +16,6 @@ const ParticleBackground: React.FC = () => {
   const animationRef = useRef<number>();
   const particlesRef = useRef<Particle[]>([]);
 
-  // Configuration
   const isMobile = window.innerWidth < 480;
   const isTablet = window.innerWidth < 768 && window.innerWidth >= 480;
   const PARTICLE_COUNT = isMobile ? 50 : isTablet ? 100 : 200;
@@ -44,7 +43,6 @@ const ParticleBackground: React.FC = () => {
     canvas.style.height = `${ph}px`;
     ctx.scale(dpr, dpr);
 
-    // Initialize particles
     const particles: Particle[] = [];
     for (let i = 0; i < PARTICLE_COUNT; i++) {
       const radius = RADIUS_MIN + Math.random() * (RADIUS_MAX - RADIUS_MIN);
