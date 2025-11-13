@@ -31,11 +31,11 @@ const About = () => {
           {t('about.description1')}
         </p>
 
-        <p className="text-md text-gray-300 mb-6">
+        <p className="text-gray-300 mb-6">
           {t('about.description2')}
         </p>
 
-        <p className="text-md text-gray-300 mb-6">
+        <p className=" text-gray-300 mb-6">
           {t('about.description3')} <span>{t('about.funFact')}</span>
         </p>
 
