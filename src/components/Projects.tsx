@@ -45,7 +45,7 @@ const Projects = () => {
       <div className="container mx-auto ">
         <div className="text-center mb-16">
           <h2 className="md:text-4xl text-2xl font-bold mb-4 text-white">
-            Featured Projects
+           Projects
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
             A showcase of some of my work and technical achievements
