@@ -5,6 +5,7 @@ import hunnovate from '@/asset/hunnovate.png';
 import rightnow from '@/asset/rightnow.png';
 import { Link } from 'react-router-dom';
 
+
 const Projects = () => {
   const projects = [
     {
