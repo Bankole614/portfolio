@@ -2,6 +2,7 @@ import { Card } from '@/components/ui/card';
 import hisend from '@/asset/hisend_web.png';
 import eportal from '@/asset/eportal.png';
 import hunnovate from '@/asset/hunnovate.png';
+import rightnow from '@/asset/rightnow.png';
 import { Link } from 'react-router-dom';
 
 const Projects = () => {
@@ -31,11 +32,11 @@ const Projects = () => {
       path: "https://hunnovate.com",
     },
     {
-      title: "SEO-Web",
-      description: "A website developed to test and analyze web SEO capabilities, enhancing visibility and search engine ranking for better discoverability.",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=600&h=400&fit=crop",
-      technologies: ["HTML", "CSS", "JavaScript", "SEO Optimization"],
-      category: "SEO Tools",
+      title: "RightNow",
+      description: "A Mobile-first app that helps lawyers and clients manage cases, documents, messaging and get plain-language AI summaries.",
+      image: rightnow,
+      technologies: ["React", "Typescript", "Flutter", "Dio", "Riverpod"],
+      category: "RightNow",
       color: "from-purple-500 to-pink-500"
     }
   ];
@@ -48,7 +49,7 @@ const Projects = () => {
            Projects
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            A showcase of some of my work and technical achievements
+            A showcase of some of my works and technical achievements
           </p>
         </div>
 

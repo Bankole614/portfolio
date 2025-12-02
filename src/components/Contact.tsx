@@ -60,7 +60,7 @@ const Contact = () => {
               id="name"
               name="name"
               required
-              className="w-full px-4 py-2 border rounded-md dark:bg-gray-800 dark:border-gray-700"
+              className="w-full px-4 py-2 border rounded-md"
             />
             <ValidationError 
               prefix={t('contact.form.name')} 
