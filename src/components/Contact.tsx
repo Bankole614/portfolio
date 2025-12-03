@@ -23,7 +23,7 @@ const Contact = () => {
   }, [state.succeeded, t]);
 
   return (
-    <section id="contact" className="px-6 py-14 bg-dark-bg">
+    <section id="contact" className="container py-14 bg-dark-bg">
       <div className="max-w-2xl mx-auto text-center">
         <h2 className="md:text-4xl text-2xl text-gray-200 font-bold mb-4">
           {t('contact.title')}

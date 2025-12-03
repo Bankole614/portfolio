@@ -66,5 +66,8 @@
         "description": "Une application mobile-first qui aide les avocats et leurs clients à gérer les dossiers, documents, messagerie et obtenir des résumés IA en langage simple."
       }
     }
+  },
+  "footer": {
+    "copyright": "© {{year}} {{name}}. Tous droits réservés."
   }
 }

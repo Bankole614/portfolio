@@ -66,6 +66,9 @@
         "description": "A Mobile-first app that helps lawyers and clients manage cases, documents, messaging and get plain-language AI summaries."
       }
     }
+  },
+  "footer": {
+    "copyright": "© {{year}} {{name}}. All rights reserved."
   }
 
 }
