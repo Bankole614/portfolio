@@ -40,5 +40,31 @@
       "submit": "Enviar mensaje",
       "sending": "Enviando..."
     }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Una muestra de algunos de mis trabajos y logros técnicos",
+    "viewProject": "Ver Proyecto",
+    "categories": {
+      "hunnovate": "Sitio Web Hunnovate"
+    },
+    "items": {
+      "hisend": {
+        "title": "Hi-send",
+        "description": "Una herramienta Backend as a Service (BaaS) que proporciona una base de datos en tiempo real, autenticación, almacenamiento y APIs para crear aplicaciones web y móviles, ayudando a los desarrolladores a dominar la integración de APIs y construir soluciones completas."
+      },
+      "eportal": {
+        "title": "Eportal Net",
+        "description": "Un sistema de gestión escolar para las actividades diarias de escuelas primarias y secundarias en Nigeria."
+      },
+      "hunnovate": {
+        "title": "Sitio Web Oficial Hunnovate",
+        "description": "El sitio web oficial de Hunnovate Tech Hub, un centro donde los entusiastas de la tecnología pueden conectarse, aprender y crecer en la industria tecnológica y más allá."
+      },
+      "rightnow": {
+        "title": "RightNow",
+        "description": "Una aplicación móvil-first que ayuda a abogados y clientes a gestionar casos, documentos, mensajería y obtener resúmenes de IA en lenguaje sencillo."
+      }
+    }
   }
 }

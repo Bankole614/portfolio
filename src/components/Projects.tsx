@@ -4,79 +4,87 @@ import eportal from '@/asset/eportal.png';
 import hunnovate from '@/asset/hunnovate.png';
 import rightnow from '@/asset/rightnow.png';
 import { Link } from 'react-router-dom';
-
+import { useTranslation } from 'react-i18next';
 
 const Projects = () => {
+  const { t } = useTranslation();
+
   const projects = [
     {
-      title: "Hi-send",
-      description: "A Backend as a Service (BaaS) tool that provides a real-time database, authentication, storage, and APIs for building web and mobile applications and help developers master API integration and build end-to-end solutions.",
+      title: t('projects.items.hisend.title'),
+      description: t('projects.items.hisend.description'),
       image: hisend,
       technologies: ["Vue", "TypeScript", "Axios", "Pinia"],
       category: "Hi-send",
       path: "https://hisend.hunnovate.com",
     },
     {
-      title: "Eportal Net",
-      description: "A school management system for day-to-day activities of primary and secondary schools in Nigeria.",
+      title: t('projects.items.eportal.title'),
+      description: t('projects.items.eportal.description'),
       image: eportal,
       technologies: ["Vue", "Typescript", "Axios", "Pinia"],
       category: "Eportal Net",
       path: "https://portal.eportalnet.com",
     },
     {
-      title: "Hunnovate Official Website",
-      description: "The official website of Hunnovate Tech Hub, a hub for tech enthusiasts to connect, learn, and grow in the tech industry and beyond.",
+      title: t('projects.items.hunnovate.title'),
+      description: t('projects.items.hunnovate.description'),
       image: hunnovate,
       technologies: ["Vue", "Typescript", "Axios", "Pinia"],
-      category: "Hunnovate Website",
+      category: t('projects.categories.hunnovate'),
       path: "https://hunnovate.com",
     },
     {
-      title: "RightNow",
-      description: "A Mobile-first app that helps lawyers and clients manage cases, documents, messaging and get plain-language AI summaries.",
+      title: t('projects.items.rightnow.title'),
+      description: t('projects.items.rightnow.description'),
       image: rightnow,
       technologies: ["React", "Typescript", "Flutter", "Dio", "Riverpod"],
       category: "RightNow",
-      color: "from-purple-500 to-pink-500"
+      path: "https://rightnow.com",
     }
   ];
 
   return (
     <section id="projects" className="py-14 bg-black/40">
-      <div className="container mx-auto ">
+      <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="md:text-4xl text-2xl font-bold mb-4 text-white">
-           Projects
+            {t('projects.title')}
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            A showcase of some of my works and technical achievements
+            {t('projects.subtitle')}
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 h-full">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 h-full">
           {projects.map((project, index) => (
-            <Link to={project.path} target="_blank" rel="noopener noreferrer" key={project.title}>
+            <Link 
+              to={project.path} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              key={project.title}
+              className="h-full"
+            >
               <Card 
-                key={project.title}
                 className="group flex flex-col justify-between overflow-hidden bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-500 animate-fade-in-up h-full"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div>
+                <div className="flex flex-col h-full">
                   <div className="relative overflow-hidden">
                     <img 
                       src={project.image}
                       alt={project.title}
                       className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
                     />
-                    <div className={`absolute inset-0 bg-gradient-to-t from-blue-500 to-cyan-500 opacity-20 group-hover:opacity-30 transition-opacity duration-300`}></div>
+                    <div className="absolute inset-0 bg-gradient-to-t from-blue-500 to-cyan-500 opacity-20 group-hover:opacity-30 transition-opacity duration-300"></div>
                     <div className="absolute top-4 right-4">
-                      <span className={`px-3 py-1 text-xs font-medium bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-full`}>
+                      <span className="px-3 py-1 text-xs font-medium bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-full">
                         {project.category}
                       </span>
                     </div>
                   </div>
-                  <div className='p-6'>
+                  
+                  <div className="p-6 flex-grow">
                     <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">
                       {project.title}
                     </h3>
@@ -84,13 +92,8 @@ const Projects = () => {
                       {project.description}
                     </p>
                   </div>
-                </div>
-                
-                
-                <div className="px-6 pb-6">
                   
-
-                  <div>
+                  <div className="px-6 pb-6">
                     <div className="flex flex-wrap gap-2 mb-6">
                       {project.technologies.map((tech) => (
                         <span 
@@ -104,19 +107,15 @@ const Projects = () => {
                     
                     <div className="flex justify-center">
                       <button 
-                        className={`bg-gradient-to-r from-blue-500 to-cyan-500 w-full hover:opacity-90 text-white px-4 py-3 rounded-md  transition-all duration-300`}
+                        className="bg-gradient-to-r from-blue-500 to-cyan-500 w-full hover:opacity-90 text-white px-4 py-3 rounded-md transition-all duration-300"
                       >
-                        View Project
+                        {t('projects.viewProject')}
                       </button>
                     </div>
                   </div>
-                  
-                  
-                  
                 </div>
               </Card>
             </Link>
-            
           ))}
         </div>
       </div>
