@@ -128,3 +128,11 @@
   animation: slide-left 38s linear infinite; /* <-- Increase this value for slower speed */
 }
 
+[dir="rtl"] .text-start {
+  text-align: right;
+}
+[dir="rtl"] .mr-2 {
+  margin-right: 0;
+  margin-left: 0.5rem;
+}
+

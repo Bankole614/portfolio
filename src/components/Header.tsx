@@ -86,7 +86,7 @@ const Header = () => {
         </nav>
       </header>
       <Dialog open={isMenuOpen} onOpenChange={setIsMenuOpen}>
-        <DialogContent className="max-w-md bg-neutral-950 rounded-2xl border border-neutral-700">
+        <DialogContent className="max-w-md bg-background/50 backdrop-blur rounded-2xl border border-neutral-700">
           <DialogHeader>
             <DialogTitle className='text-start text-xl'>{t('nav.menuTitle')}</DialogTitle>
           </DialogHeader>
@@ -95,7 +95,7 @@ const Header = () => {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="block bg-neutral-900 text-gray-100 w-full text-left p-4 rounded-xl hover:text-gradient-start transition-all duration-500"
+                className="block bg-dark-bg text-gray-100 w-full text-left p-4 rounded-xl hover:text-gradient-start transition-all duration-500"
               >
                 {item.name}
               </button>

@@ -10,14 +10,24 @@ import {
   SelectValue,
 } from '@/components/ui/select';
 import ReactCountryFlag from 'react-country-flag';
+import { useEffect } from 'react';
 
 export function LanguageSelect() {
   const { i18n } = useTranslation();
+
+  useEffect(() => {
+    // Set HTML direction based on language
+    document.documentElement.dir = i18n.language === 'ar' ? 'rtl' : 'ltr';
+    document.documentElement.lang = i18n.language;
+  }, [i18n.language]);
 
   const languages = [
     { value: 'en', label: 'English', countryCode: 'US' },
     { value: 'fr', label: 'Français', countryCode: 'FR' },
     { value: 'es', label: 'Español', countryCode: 'ES' },
+    { value: 'de', label: 'Deutsch', countryCode: 'DE' },
+  { value: 'fi', label: 'Suomi', countryCode: 'FI' },
+  { value: 'ar', label: 'العربية', countryCode: 'SA' },
   ];
 
   const handleLanguageChange = (value: string) => {
