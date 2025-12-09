@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "logoAlt": "Yrityksen logo",
+    "menuTitle": "Valikko",
+    "home": "Koti",
+    "about": "Minusta",
+    "projects": "Projektit",
+    "contact": "Yhteystiedot"
+  },
+  "hero": {
+    "title": "Hei, olen {{name}}",
+    "subtitle1": "Frontend-kehittäjä",
+    "subtitle2": "muuntaa puhtaan koodin",
+    "subtitle3": "iloiseksi käyttökokemukseksi",
+    "description": "Erityiskykyni on rakentaa responsiivisia, esteettömiä ja visuaalisesti hiotta web- ja mobiilisovelluksia Reactilla, Vuella, Flutterilla, Supabasella ja Hi-sendillä. Luonnoksista pikselintarkkoihin käyttöliittymiin, yhdistän suunnittelun ja toiminnallisen kauneuden.",
+    "seeWork": "Katso työni",
+    "contactMe": "Ota yhteyttä"
+  },
+  "about": {
+    "title": "Minusta",
+    "description1": "Olen frontend-kehittäjä, joka arvostaa puhtaita käyttöliittymiä, merkityksellistä vuorovaikutusta ja harkittuja käyttökokemuksia. Keskityn muuntamaan luovia ideoita toimiviksi, saavutettaviksi ja visuaalisesti vakuuttaviksi digitaalisiksi tuotteiksi. Kiinnitän erityistä huomiota yksityiskohtiin, visuaaliseen harmoniaan ja intuitiiviseen käyttäjävirtaukseen jokaisessa rakennelmassa.",
+    "description2": "Taustani on viestinnässä, mikä tarkoittaa, että pohdin syvällisesti sitä, kuinka käyttäjät vuorovaikuttavat, hahmottavat ja kokevat digitaalisia tuotteita. Tämä auttaa minua kirjoittamaan puhtaampia käyttöliittymiä, merkityksellisiä mikrotekstejä ja rakentamaan empatialla.",
+    "communications": "Viestintä",
+    "description3": "Olipa kyseessä puhtaiden käyttöliittymien suunnittelu, API-integraatiot tai full-stack-alustojen rakentaminen työkaluilla kuten Supabase tai Hi-send, nautin ideoiden muuntamisesta todellisiksi, käyttäjäkeskeisiksi tuotteiksi. Olen erityisen kiinnostunut frontend-suorituskyvystä, saavutettavuudesta ja kauniista siirtymistä.",
+    "funFact": "Hauska fakta: pystyn havaitsemaan väärin kohdennetut painikkeet 3 metrin päästä.",
+    "techStack": "Teknologiakokoelma",
+    "viewWork": "Katso työni"
+  },
+  "contact": {
+    "title": "Ota yhteyttä",
+    "subtitle": "Onko sinulla projekti mielessä, kysymys vai haluatko vain sanoa hei? Kuulen mielelläni sinusta.",
+    "success": {
+      "title": "Kiitos yhteydenotostasi!",
+      "description": "Palaan asiaan pian."
+    },
+    "form": {
+      "name": "Nimi",
+      "email": "Sähköposti",
+      "message": "Viesti",
+      "submit": "Lähetä viesti",
+      "sending": "Lähetetään..."
+    }
+  },
+  "projects": {
+    "title": "Projektit",
+    "subtitle": "Esittely joistakin töistäni ja teknisistä saavutuksistani",
+    "viewProject": "Näytä projekti",
+    "categories": {
+      "hunnovate": "Hunnovate-sivusto"
+    },
+    "items": {
+      "hisend": {
+        "title": "Hi-send",
+        "description": "Backend-as-a-Service (BaaS)-työkalu, joka tarjoaa reaaliaikaisen tietokannan, todentamisen, tallennustilan ja API: t web- ja mobiilisovellusten rakentamiseen ja auttaa kehittäjiä hallitsemaan API-integraation ja rakentamaan loppuun asti toimivia ratkaisuja."
+      },
+      "eportal": {
+        "title": "Eportal Net",
+        "description": "Koulun hallintajärjestelmä päivittäisille toiminnoille Nigerian perus- ja toisen asteen kouluissa."
+      },
+      "hunnovate": {
+        "title": "Hunnovaten virallinen verkkosivusto",
+        "description": "Hunnovate Tech Hubin virallinen verkkosivusto, keskittymä, jossa teknologiaharrastajat voivat verkostoitua, oppia ja kasvaa teknologiassa ja sen ulkopuolella."
+      },
+      "rightnow": {
+        "title": "RightNow",
+        "description": "Mobiili-first-sovellus, joka auttaa lakimiehiä ja asiakkaita hallitsemaan tapauksia, dokumentteja, viestintää ja saamaan selkokielisiä AI-yhteenvetoja."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© {{year}} {{name}}. Kaikki oikeudet pidätetään."
+  }
+}
