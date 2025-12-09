@@ -14,7 +14,8 @@ const Contact = () => {
       toast({
         title: t('contact.success.title'),
         description: t('contact.success.description'),
-        variant: "default"
+        variant: "default",
+        duration: 3000,
       });
       if (formRef.current) {
         formRef.current.reset();
