@@ -86,7 +86,7 @@ const Header = () => {
         </nav>
       </header>
       <Dialog open={isMenuOpen} onOpenChange={setIsMenuOpen}>
-        <DialogContent className="max-w-md bg-background/50 backdrop-blur rounded-2xl border border-neutral-700">
+        <DialogContent className="max-w-md bg-background/50 backdrop-blur rounded-2xl border border-border/70">
           <DialogHeader>
             <DialogTitle className='text-start text-xl'>{t('nav.menuTitle')}</DialogTitle>
           </DialogHeader>
