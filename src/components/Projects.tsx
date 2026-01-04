@@ -40,7 +40,7 @@ const Projects = () => {
       image: rightnow,
       technologies: ["React", "Typescript", "Flutter", "Dio", "Riverpod"],
       category: "RightNow",
-      path: "https://rightnow.com",
+      path: "https://rightnow-case-tracker.vercel.app",
     }
   ];
 
