@@ -1,6 +1,6 @@
 import { ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import hisend from '@/asset/hisend.png';
+import hisend from '../asset/hisend.png';
 
 const About = () => {
   const { t } = useTranslation();
