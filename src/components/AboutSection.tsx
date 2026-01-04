@@ -1,6 +1,6 @@
 import { ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import hisend from '../asset/hisend.png';
+import hisend from '@/asset/hisend.png';
 
 const About = () => {
   const { t } = useTranslation();
@@ -13,7 +13,7 @@ const About = () => {
     { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
     { name: 'TypeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
     { name: 'Supabase', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg' },
-    { name: 'Hi-send', icon: hisend },
+    { name: 'Hi-send', icon: 'images/hisend.png' },
   ];
 
   const scrollToSection = (sectionId: string) => {
@@ -53,6 +53,7 @@ const About = () => {
           </div>
         </div>
 
+        {/* Call to Action */}
         <div className="mt-12 flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-gradient-start to-gradient-end text-gray-900 font-medium rounded-md transition-all duration-300 hover:from-blue-800 hover:to-blue-400 hover:text-white w-fit mx-auto">
           <button
             type="button"
