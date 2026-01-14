@@ -24,7 +24,7 @@ const Projects = () => {
       image: eportal,
       technologies: ["Vue", "Typescript", "Axios", "Pinia"],
       category: "Eportal Net",
-      path: "https://portal.eportalnet.com",
+      path: "https://eportalnet.com",
     },
     {
       title: t('projects.items.hunnovate.title'),
