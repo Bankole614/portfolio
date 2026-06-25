@@ -19,14 +19,6 @@ const Projects = () => {
       path: "https://hisend.hunnovate.com",
     },
     {
-      title: t('projects.items.eportal.title'),
-      description: t('projects.items.eportal.description'),
-      image: eportal,
-      technologies: ["Vue", "Typescript", "Axios", "Pinia"],
-      category: "Eportal Net",
-      path: "https://eportalnet.com",
-    },
-    {
       title: t('projects.items.rightnow.title'),
       description: t('projects.items.rightnow.description'),
       image: rightnow,
@@ -35,10 +27,18 @@ const Projects = () => {
       path: "https://rightnow-case-tracker.vercel.app",
     },
     {
+      title: t('projects.items.eportal.title'),
+      description: t('projects.items.eportal.description'),
+      image: eportal,
+      technologies: ["Vue", "Typescript", "Axios", "Pinia"],
+      category: "Eportal Net",
+      path: "https://eportalnet.com",
+    },
+    {
       title: t('projects.items.kickoff.title'),
       description: t('projects.items.kickoff.description'),
       image: kickoff,
-      technologies: ["HTML", "Tailwind", "Flutter", "Dart"],
+      technologies: ["HTML", "Tailwind", "JavaScript", "Flutter", "Dart"],
       category: t('kickoff'),
       path: "https://kickoff-landing-page-smoky.vercel.app/",
     }
