@@ -1,7 +1,7 @@
 import { Card } from '@/components/ui/card';
 import hisend from '@/asset/hisend_web.png';
 import eportal from '@/asset/eportal.png';
-import hunnovate from '@/asset/hunnovate.png';
+import kickoff from '@/asset/kickoff.png';
 import rightnow from '@/asset/rightnow.png';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -27,12 +27,12 @@ const Projects = () => {
       path: "https://eportalnet.com",
     },
     {
-      title: t('projects.items.hunnovate.title'),
-      description: t('projects.items.hunnovate.description'),
-      image: hunnovate,
-      technologies: ["Vue", "Typescript", "Axios", "Pinia"],
-      category: t('projects.categories.hunnovate'),
-      path: "https://hunnovate.com",
+      title: t('projects.items.kickoff.title'),
+      description: t('projects.items.kickoff.description'),
+      image: kickoff,
+      technologies: ["HTML", "Tailwind", "Flutter", "Dart"],
+      category: t('kickoff'),
+      path: "https://kickoff-landing-page-smoky.vercel.app/",
     },
     {
       title: t('projects.items.rightnow.title'),

@@ -46,7 +46,7 @@
     "subtitle": "Una muestra de algunos de mis trabajos y logros técnicos",
     "viewProject": "Ver Proyecto",
     "categories": {
-      "hunnovate": "Sitio Web Hunnovate"
+      "kickoff": "Kickoff App"
     },
     "items": {
       "hisend": {
@@ -57,9 +57,9 @@
         "title": "Eportal Net",
         "description": "Un sistema de gestión escolar para las actividades diarias de escuelas primarias y secundarias en Nigeria."
       },
-      "hunnovate": {
-        "title": "Sitio Web Oficial Hunnovate",
-        "description": "El sitio web oficial de Hunnovate Tech Hub, un centro donde los entusiastas de la tecnología pueden conectarse, aprender y crecer en la industria tecnológica y más allá."
+      "kickoff": {
+        "title": "Kickoff",
+        "description": "El compañero definitivo para el fútbol callejero y las competiciones de FIFA. Automatiza tus partidos, realiza un seguimiento de la forma de los equipos y gestiona los cuadros de torneos con una interfaz elegante y reactiva, diseñada para la velocidad y la facilidad de uso."
       },
       "rightnow": {
         "title": "RightNow",

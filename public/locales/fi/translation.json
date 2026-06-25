@@ -46,7 +46,7 @@
     "subtitle": "Esittely joistakin töistäni ja teknisistä saavutuksistani",
     "viewProject": "Näytä projekti",
     "categories": {
-      "hunnovate": "Hunnovate-sivusto"
+      "kickoff": "Kickoff App"
     },
     "items": {
       "hisend": {
@@ -57,9 +57,9 @@
         "title": "Eportal Net",
         "description": "Koulun hallintajärjestelmä päivittäisille toiminnoille Nigerian perus- ja toisen asteen kouluissa."
       },
-      "hunnovate": {
-        "title": "Hunnovaten virallinen verkkosivusto",
-        "description": "Hunnovate Tech Hubin virallinen verkkosivusto, keskittymä, jossa teknologiaharrastajat voivat verkostoitua, oppia ja kasvaa teknologiassa ja sen ulkopuolella."
+      "kickoff": {
+        "title": "Kickoff",
+        "description": "Täydellinen kumppani katujalkapalloon ja FIFA-kilpailuihin. Automatisoi otteluohjelmasi, seuraa joukkueiden kuntoa ja hallitse turnaussarjoja tyylikkään ja reagoivan käyttöliittymän avulla, joka on suunniteltu nopeuteen ja helppokäyttöisyyteen."
       },
       "rightnow": {
         "title": "RightNow",

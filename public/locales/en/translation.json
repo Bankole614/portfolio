@@ -46,7 +46,7 @@
     "subtitle": "A showcase of some of my works and technical achievements",
     "viewProject": "View Project",
     "categories": {
-      "hunnovate": "Hunnovate Website"
+      "kickoff": "Kickoff App"
     },
     "items": {
       "hisend": {
@@ -57,9 +57,9 @@
         "title": "Eportal Net",
         "description": "A school management system for day-to-day activities of primary and secondary schools in Nigeria."
       },
-      "hunnovate": {
-        "title": "Hunnovate Official Website",
-        "description": "The official website of Hunnovate Tech Hub, a hub for tech enthusiasts to connect, learn, and grow in the tech industry and beyond."
+      "kickoff": {
+        "title": "Kickoff",
+        "description": "The ultimate companion for street football and FIFA competitions. Automate your fixtures, track team form, and manage tournament brackets with a sleek, reactive interface built for speed and ease of use."
       },
       "rightnow": {
         "title": "RightNow",
