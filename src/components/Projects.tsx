@@ -27,21 +27,22 @@ const Projects = () => {
       path: "https://eportalnet.com",
     },
     {
-      title: t('projects.items.kickoff.title'),
-      description: t('projects.items.kickoff.description'),
-      image: kickoff,
-      technologies: ["HTML", "Tailwind", "Flutter", "Dart"],
-      category: t('kickoff'),
-      path: "https://kickoff-landing-page-smoky.vercel.app/",
-    },
-    {
       title: t('projects.items.rightnow.title'),
       description: t('projects.items.rightnow.description'),
       image: rightnow,
       technologies: ["React", "Typescript", "Flutter", "Dio", "Riverpod"],
       category: "RightNow",
       path: "https://rightnow-case-tracker.vercel.app",
+    },
+    {
+      title: t('projects.items.kickoff.title'),
+      description: t('projects.items.kickoff.description'),
+      image: kickoff,
+      technologies: ["HTML", "Tailwind", "Flutter", "Dart"],
+      category: t('kickoff'),
+      path: "https://kickoff-landing-page-smoky.vercel.app/",
     }
+    
   ];
 
   return (
