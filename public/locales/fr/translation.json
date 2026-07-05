@@ -5,23 +5,24 @@
     "home": "Accueil",
     "about": "À propos",
     "projects": "Projets",
+    "designPortfolio": "Portfolio de Design",
     "contact": "Contact"
   },
   "hero": {
     "title": "Bonjour, je suis {{name}}",
-    "subtitle1": "Développeur Frontend",
-    "subtitle2": "transformant du code propre en",
-    "subtitle3": "expériences utilisateur exceptionnelles",
-    "description": "Je me spécialise dans la création d'applications web et mobiles réactives, accessibles et visuellement soignées en utilisant React, Vue, Flutter, Supabase et Hi-send. Des maquettes aux interfaces pixel-perfect, je fais le lien entre design et beauté fonctionnelle.",
+    "subtitle1": "Développeur Logiciel",
+    "subtitle2": "créant des",
+    "subtitle3": "interfaces propres et des produits numériques intelligents",
+    "description": "Je transforme les idées en expériences web et mobiles réactives, fluides, intuitives et vivantes. Ma boîte à outils comprend Figma, React, Vue, Flutter et Python, et j'adore guider les produits d'un concept brut à un résultat que les gens aiment vraiment utiliser.",
     "seeWork": "Voir mes projets",
     "contactMe": "Contactez-moi"
   },
   "about": {
     "title": "À propos",
-    "description1": "Je suis un développeur frontend qui valorise des interfaces propres, des interactions significatives et des expériences utilisateur réfléchies. Je me concentre sur la transformation d'idées créatives en produits numériques fonctionnels, accessibles et visuellement attrayants. Je porte une attention particulière aux détails, à l'harmonie visuelle et au flux utilisateur intuitif dans chaque réalisation.",
-    "description2": "Je viens d'un parcours en Communication, ce qui signifie que je réfléchis profondément à la façon dont les utilisateurs interagissent, perçoivent et expérimentent les produits numériques. Cela m'aide à créer des interfaces plus claires, des microcopies significatives et à développer avec empathie.",
+    "description1": "Je suis un développeur logiciel qui aime créer des choses à la fois belles et utiles. Je me soucie des structures claires, des interactions fluides et des logiciels qui semblent naturels entre les mains de vrais utilisateurs.",
+    "description2": "Mon parcours en communication me donne un avantage au-delà du code. Je réfléchis soigneusement à la clarté, au flux et à la façon dont les utilisateurs vivent réellement un produit, et non pas seulement à son fonctionnement interne. Cela m'aide à concevoir des interfaces, à rédiger des microcontenus plus percutants et à rendre les produits numériques plus humains.",
     "communications": "Communication",
-    "description3": "Que ce soit concevoir des interfaces utilisateur propres, intégrer des API ou construire des plateformes full-stack avec des outils comme Supabase ou Hi-send, j'aime transformer des idées en produits réels centrés sur l'utilisateur. Je m'intéresse particulièrement aux performances frontend, à l'accessibilité et aux belles transitions.",
+    "description3": "J'aime travailler sur les aspects les plus importants d'un produit : le design d'interface, l'expérience utilisateur, l'intégration d'API et la logique backend si nécessaire. Je suis particulièrement attiré par les performances frontend, l'accessibilité, les animations et la résolution minutieuse de problèmes. ",
     "funFact": "Petit fait amusant ; je peux repérer des boutons mal alignés à 3 mètres de distance.",
     "techStack": "Stack Technique",
     "viewWork": "Voir mes projets"

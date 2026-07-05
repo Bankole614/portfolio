@@ -5,24 +5,25 @@
     "home": "Koti",
     "about": "Minusta",
     "projects": "Projektit",
+    "designPortfolio": "Design-portfolio",
     "contact": "Yhteystiedot"
   },
   "hero": {
     "title": "Hei, olen {{name}}",
-    "subtitle1": "Frontend-kehittäjä",
-    "subtitle2": "muuntaa puhtaan koodin",
-    "subtitle3": "iloiseksi käyttökokemukseksi",
-    "description": "Erityiskykyni on rakentaa responsiivisia, esteettömiä ja visuaalisesti hiotta web- ja mobiilisovelluksia Reactilla, Vuella, Flutterilla, Supabasella ja Hi-sendillä. Luonnoksista pikselintarkkoihin käyttöliittymiin, yhdistän suunnittelun ja toiminnallisen kauneuden.",
+    "subtitle1": "Ohjelmistokehittäjä",
+    "subtitle2": "rakentaa",
+    "subtitle3": "puhtaita käyttöliittymiä ja älykkäitä digitaalisia tuotteita",
+    "description": "Muutan ideat responsiivisiksi web- ja mobiilikokemuksiksi, jotka tuntuvat hiotuilta, intuitiivisilta ja eläviltä. Työkalupakkiini kuuluvat Figma, React, Vue, Flutter ja Python, ja rakastan tuotteiden viemistä karkeasta konseptista sellaiseksi, jonka käyttämisestä ihmiset todella nauttivat.",
     "seeWork": "Katso työni",
     "contactMe": "Ota yhteyttä"
   },
   "about": {
     "title": "Minusta",
-    "description1": "Olen frontend-kehittäjä, joka arvostaa puhtaita käyttöliittymiä, merkityksellistä vuorovaikutusta ja harkittuja käyttökokemuksia. Keskityn muuntamaan luovia ideoita toimiviksi, saavutettaviksi ja visuaalisesti vakuuttaviksi digitaalisiksi tuotteiksi. Kiinnitän erityistä huomiota yksityiskohtiin, visuaaliseen harmoniaan ja intuitiiviseen käyttäjävirtaukseen jokaisessa rakennelmassa.",
-    "description2": "Taustani on viestinnässä, mikä tarkoittaa, että pohdin syvällisesti sitä, kuinka käyttäjät vuorovaikuttavat, hahmottavat ja kokevat digitaalisia tuotteita. Tämä auttaa minua kirjoittamaan puhtaampia käyttöliittymiä, merkityksellisiä mikrotekstejä ja rakentamaan empatialla.",
+    "description1": "Olen ohjelmistokehittäjä, joka nauttii sekä kauniiden että hyödyllisten asioiden rakentamisesta. Välitän puhtaasta rakenteesta, sujuvista vuorovaikutuksista ja ohjelmistoista, jotka tuntuvat luonnollisilta oikeiden ihmisten käsissä.",
+    "description2": "Viestintätaustani antaa minulle etua koodin ulkopuolella. Ajattelen huolellisesti selkeyttä, sujuvuutta ja sitä, miten käyttäjät todella kokevat tuotteen, enkä vain sitä, miten se toimii pinnan alla. Tämä auttaa minua rakentamaan käyttöliittymiä, kirjoittamaan parempaa mikrotekstiä ja tekemään digitaalisista tuotteista inhimillisempiä.",
     "communications": "Viestintä",
-    "description3": "Olipa kyseessä puhtaiden käyttöliittymien suunnittelu, API-integraatiot tai full-stack-alustojen rakentaminen työkaluilla kuten Supabase tai Hi-send, nautin ideoiden muuntamisesta todellisiksi, käyttäjäkeskeisiksi tuotteiksi. Olen erityisen kiinnostunut frontend-suorituskyvystä, saavutettavuudesta ja kauniista siirtymistä.",
-    "funFact": "Hauska fakta: pystyn havaitsemaan väärin kohdennetut painikkeet 3 metrin päästä.",
+    "description3": "Pidän työskentelystä tuotteen tärkeimpien osien parissa: käyttöliittymäsuunnittelun, käyttökokemuksen, API-integraatioiden ja tarvittaessa backend-logiikan. Minua houkuttelevat erityisesti frontendin suorituskyky, saavutettavuus, liike ja ajatteleva ongelmanratkaisu. ",
+    "funFact": "Jos jokin näyttää vähänkin olevan vinossa, huomaan sen välittömästi.",
     "techStack": "Teknologiakokoelma",
     "viewWork": "Katso työni"
   },

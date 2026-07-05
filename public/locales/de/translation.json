@@ -5,24 +5,25 @@
     "home": "Startseite",
     "about": "Über mich",
     "projects": "Projekte",
+    "designPortfolio": "Design-Portfolio",
     "contact": "Kontakt"
   },
   "hero": {
     "title": "Hallo, ich bin {{name}}",
-    "subtitle1": "Frontend-Entwickler",
-    "subtitle2": "verwandelt sauberen Code in",
-    "subtitle3": "begeisternde Nutzererlebnisse",
-    "description": "Ich spezialisiere mich auf den Bau responsiver, barrierefreier und visuell ansprechender Web- und Mobile-Apps mit React, Vue, Flutter, Supabase und Hi-send. Von Wireframes bis zu pixelperfekten UIs überbrücke ich die Lücke zwischen Design und funktionaler Schönheit.",
+    "subtitle1": "Software-Entwickler",
+    "subtitle2": "entwickelt",
+    "subtitle3": "saubere Benutzeroberflächen und intelligente digitale Produkte",
+    "description": "Ich verwandle Ideen in responsive Web- und Mobile-Erlebnisse, die sich ausgereift, intuitiv und lebendig anfühlen. Mein Toolkit umfasst Figma, React, Vue, Flutter und Python, und ich liebe es, Produkte vom ersten Entwurf zu etwas zu führen, das Menschen wirklich gerne nutzen.",
     "seeWork": "Meine Arbeit ansehen",
     "contactMe": "Kontaktieren Sie mich"
   },
   "about": {
     "title": "Über mich",
-    "description1": "Ich bin ein Frontend-Entwickler, der saubere Schnittstellen, bedeutungsvolle Interaktionen und durchdachte Nutzererlebnisse schätzt. Ich konzentriere mich darauf, kreative Ideen in funktionelle, zugängliche und visuell ansprechende digitale Produkte zu verwandeln. Ich lege großen Wert auf Details, visuelle Harmonie und intuitiven Nutzerfluss in jedem Projekt.",
-    "description2": "Ich komme aus dem Bereich Kommunikation, was bedeutet, dass ich tief über die Interaktion, Wahrnehmung und Erfahrung von Nutzern mit digitalen Produkten nachdenke. Das hilft mir, sauberere Schnittstellen zu schreiben, aussagekräftige Mikrokopien zu verfassen und mit Einfühlungsvermögen zu entwickeln.",
+    "description1": "Ich bin ein Software-Entwickler, der gerne Dinge baut, die sowohl schön als auch nützlich sind. Mir sind eine saubere Struktur, reibungslose Interaktionen und Software wichtig, die sich in den Händen echter Menschen natürlich anfühlt.",
+    "description2": "Mein Hintergrund in der Kommunikation verschafft mir einen Vorteil, der über den Code hinausgeht. Ich mache mir intensive Gedanken über Klarheit, Fluss und das tatsächliche Erleben eines Produkts durch den Nutzer, nicht nur über die Funktionsweise unter der Haube. Das hilft mir dabei, Schnittstellen zu gestalten, bessere Mikrotexte zu verfassen und digitale Produkte menschlicher wirken zu lassen.",
     "communications": "Kommunikation",
-    "description3": "Egal ob ich saubere UIs entwerfe, APIs integriere oder Full-Stack-Plattformen mit Tools wie Supabase oder Hi-send baue – ich genieße es, Ideen in echte, nutzerfokussierte Produkte zu verwandeln. Ich interessiere mich besonders für Frontend-Leistung, Barrierefreiheit und schöne Übergänge.",
-    "funFact": "Hier ein lustiger Fakt: Ich kann falsch ausgerichtete Buttons aus 3 Metern Entfernung erkennen.",
+    "description3": "Ich arbeite gerne an den Bereichen eines Produkts, auf die es am meisten ankommt: Interface-Design, Benutzererfahrung, API-Integration und bei Bedarf Backend-Logik. Besonders reizen mich Frontend-Performance, Barrierefreiheit, Bewegung und durchdachte Problemlösungen. ",
+    "funFact": "Wenn etwas auch nur minimal schief aussieht, fällt es mir sofort auf.",
     "techStack": "Tech-Stack",
     "viewWork": "Meine Arbeit ansehen"
   },

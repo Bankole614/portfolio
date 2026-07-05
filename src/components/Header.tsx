@@ -27,11 +27,16 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+  const handleNavClick = (item: { id: string; isExternal?: boolean; href?: string }) => {
+    if (item.isExternal && item.href) {
+      window.open(item.href, '_blank', 'noopener,noreferrer');
       setIsMenuOpen(false);
+    } else {
+      const element = document.getElementById(item.id);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+        setIsMenuOpen(false);
+      }
     }
   };
 
@@ -39,6 +44,7 @@ const Header = () => {
     { name: t('nav.home'), id: 'home' },
     { name: t('nav.about'), id: 'about' },
     { name: t('nav.projects'), id: 'projects' },
+    { name: t('nav.designPortfolio'), id: 'design-portfolio', isExternal: true, href: 'https://www.behance.net/bankoleayobami1' },
     { name: t('nav.contact'), id: 'contact' },
   ];
 
@@ -49,25 +55,27 @@ const Header = () => {
       }`}>
         <nav className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <div className='h-9 w-9'>
+            <div className='h-9 w-9 flex-shrink-0'>
               <img src={logo} alt={t('nav.logoAlt')} />
             </div>
 
-            {/* Desktop Navigation */}
-            <div className="hidden md:flex items-center space-x-8">
+            {/* Desktop Navigation (Centered) */}
+            <div className="hidden md:flex flex-grow justify-center items-center space-x-8">
               {navItems.map((item) => (
                 <button
                   key={item.id}
-                  onClick={() => scrollToSection(item.id)}
+                  onClick={() => handleNavClick(item)}
                   className="text-neutral-200 hover:text-gradient-start transition-colors duration-200 relative group"
                 >
                   {item.name}
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-start transition-all duration-300 group-hover:w-full"></span>
                 </button>
               ))}
-              <div className="ml-4">
-                <LanguageSelect />
-              </div>
+            </div>
+
+            {/* Language Select (Right) */}
+            <div className="hidden md:flex items-center flex-shrink-0 ml-4">
+              <LanguageSelect />
             </div>
 
             {/* Mobile Menu Button */}
@@ -94,7 +102,7 @@ const Header = () => {
             {navItems.map((item) => (
               <button
                 key={item.id}
-                onClick={() => scrollToSection(item.id)}
+                onClick={() => handleNavClick(item)}
                 className="block bg-dark-bg text-gray-100 w-full text-left p-4 rounded-xl hover:text-gradient-start transition-all duration-500"
               >
                 {item.name}

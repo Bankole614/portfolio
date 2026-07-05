@@ -5,24 +5,25 @@
     "home": "Inicio",
     "about": "Sobre",
     "projects": "Proyectos",
+    "designPortfolio": "Portafolio de Diseño",
     "contact": "Contacto"
   },
   "hero": {
     "title": "Hola, soy {{name}}",
-    "subtitle1": "Desarrollador Frontend",
-    "subtitle2": "convirtiendo código limpio en",
-    "subtitle3": "experiencias de usuario encantadoras",
-    "description": "Me especializo en construir aplicaciones web y móviles responsivas, accesibles y visualmente pulidas usando React, Vue, Flutter, Supabase y Hi-send. Desde wireframes hasta interfaces pixel-perfect, cierro la brecha entre diseño y belleza funcional.",
+    "subtitle1": "Desarrollador de Software",
+    "subtitle2": "creando",
+    "subtitle3": "interfaces limpias y productos digitales inteligentes",
+    "description": "Convierto ideas en experiencias web y móviles responsivas que se sienten pulidas, intuitivas y vivas. Mi conjunto de herramientas incluye Figma, React, Vue, Flutter y Python, y me encanta llevar productos desde un concepto tosco hasta algo que la gente realmente disfrute usar.",
     "seeWork": "Ver mis proyectos",
     "contactMe": "Contáctame"
   },
   "about": {
     "title": "Sobre mí",
-    "description1": "Soy un desarrollador frontend que valora interfaces limpias, interacciones significativas y experiencias de usuario bien pensadas. Me enfoco en convertir ideas creativas en productos digitales funcionales, accesibles y visualmente atractivos. Presto mucha atención al detalle, la armonía visual y el flujo intuitivo del usuario en cada proyecto.",
-    "description2": "Provengo de un trasfondo en comunicaciones, lo que significa que pienso profundamente en cómo los usuarios interactúan, perciben y experimentan los productos digitales. Esto me ayuda a escribir interfaces más limpias, microtextos significativos y a construir con empatía.",
+    "description1": "Soy un desarrollador de software que disfruta construir cosas que sean tanto hermosas como útiles. Me preocupo por la estructura limpia, las interacciones fluidas y el software que se sienta natural en manos de personas reales.",
+    "description2": "Mi formación en comunicación me da una ventaja más allá del código. Pienso detenidamente en la claridad, el flujo y cómo los usuarios experimentan realmente un producto, no solo en cómo funciona internamente. Eso me ayuda a diseñar interfaces, escribir mejor microtexto y hacer que los productos digitales se sientan más humanos.",
     "communications": "Comunicaciones",
-    "description3": "Ya sea diseñando interfaces limpias, integrando APIs o construyendo plataformas full-stack con herramientas como Supabase o Hi-send, disfruto transformando ideas en productos reales centrados en el usuario. Me interesan especialmente el rendimiento frontend, la accesibilidad y las transiciones hermosas.",
-    "funFact": "Aquí un dato curioso; puedo detectar botones desalineados desde 3 metros de distancia.",
+    "description3": "Me gusta trabajar en las partes de un producto que más importan: diseño de interfaz, experiencia de usuario, integración de APIs y lógica de backend cuando es necesario. Me atraen especialmente el rendimiento frontend, la accesibilidad, el movimiento y la resolución reflexiva de problemas. ",
+    "funFact": "Si algo se ve ligeramente descentrado, lo notaré de inmediato.",
     "techStack": "Tecnologías",
     "viewWork": "Ver mi trabajo"
   },
