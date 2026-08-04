@@ -2,7 +2,7 @@ import { Card } from '@/components/ui/card';
 import hisend from '@/asset/hisend_web.png';
 import eportal from '@/asset/eportal.png';
 import kickoff from '@/asset/kickoff.png';
-import rightnow from '@/asset/rightnow.png';
+import lexflow from '@/asset/lexflow.png';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
@@ -19,11 +19,11 @@ const Projects = () => {
       path: "https://hisend.hunnovate.com",
     },
     {
-      title: t('projects.items.rightnow.title'),
-      description: t('projects.items.rightnow.description'),
-      image: rightnow,
+      title: t('projects.items.lexflow.title'),
+      description: t('projects.items.lexflow.description'),
+      image: lexflow,
       technologies: ["React", "Typescript", "Flutter", "Dio", "Riverpod"],
-      category: "RightNow",
+      category: "LexFlow",
       path: "https://rightnow-case-tracker.vercel.app",
     },
     {

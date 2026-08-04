@@ -62,8 +62,8 @@
         "title": "Kickoff",
         "description": "Der ultimative Begleiter für Straßenfußball und FIFA-Turniere. Automatisiere deine Spielpläne, verfolge die Form deiner Teams und verwalte Turnierbrackets mit einer eleganten, reaktiven Oberfläche, die auf Geschwindigkeit und Benutzerfreundlichkeit ausgelegt ist."
       },
-      "rightnow": {
-        "title": "RightNow",
+      "lexflow": {
+        "title": "LexFlow",
         "description": "Eine Mobile-First-App, die Anwälten und Mandanten hilft, Fälle, Dokumente, Nachrichten zu verwalten und KI-Zusammenfassungen in einfacher Sprache zu erhalten."
       }
     }

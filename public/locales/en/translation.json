@@ -62,8 +62,8 @@
         "title": "Kickoff",
         "description": "The ultimate companion for street football and FIFA competitions. Automate your fixtures, track team form, and manage tournament brackets with a sleek, reactive interface built for speed and ease of use."
       },
-      "rightnow": {
-        "title": "RightNow",
+      "lexflow": {
+        "title": "LexFlow",
         "description": "A Mobile-first app that helps lawyers and clients manage cases, documents, messaging and get plain-language AI summaries."
       }
     }

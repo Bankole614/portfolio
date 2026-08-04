@@ -62,8 +62,8 @@
         "title": "Kickoff",
         "description": "Le compagnon idéal pour le football de rue et les compétitions FIFA. Automatisez vos rencontres, suivez la forme des équipes et gérez les tableaux de tournois grâce à une interface élégante et réactive, conçue pour la rapidité et la simplicité d'utilisation."
       },
-      "rightnow": {
-        "title": "RightNow",
+      "lexflow": {
+        "title": "LexFlow",
         "description": "Une application mobile-first qui aide les avocats et leurs clients à gérer les dossiers, documents, messagerie et obtenir des résumés IA en langage simple."
       }
     }

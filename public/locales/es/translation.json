@@ -62,8 +62,8 @@
         "title": "Kickoff",
         "description": "El compañero definitivo para el fútbol callejero y las competiciones de FIFA. Automatiza tus partidos, realiza un seguimiento de la forma de los equipos y gestiona los cuadros de torneos con una interfaz elegante y reactiva, diseñada para la velocidad y la facilidad de uso."
       },
-      "rightnow": {
-        "title": "RightNow",
+      "lexflow": {
+        "title": "LexFlow",
         "description": "Una aplicación móvil-first que ayuda a abogados y clientes a gestionar casos, documentos, mensajería y obtener resúmenes de IA en lenguaje sencillo."
       }
     }
